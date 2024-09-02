@@ -1,0 +1,33 @@
+.day {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 36px;
+	background-color: white;
+	cursor: pointer;
+}
+
+.day:hover {
+	color: black;
+	background-color: #e6e6e6;
+	transition: all 0.3s ease-in-out;
+}
+
+.isToday {
+	background-color: #ffff76;
+}
+
+.isInRange {
+	color: white;
+	background-color: #006edc;
+}
+
+.forbidden {
+	color: #757575;
+	cursor: not-allowed;
+}
+
+.forbidden:hover {
+	background-color: unset;
+}
