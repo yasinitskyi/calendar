@@ -1,0 +1,21 @@
+.controlButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	background-color: white;
+	border-radius: 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.controlButton:focus {
+	outline: none;
+}
+
+.controlButton:hover {
+	transition: all 0.3s ease-in-out;
+	background-color: #e6e6e6;
+}
